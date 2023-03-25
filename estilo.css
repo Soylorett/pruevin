@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+    body{
+        text-align: center;
+        background: rgb(209,36,36);
+        background: linear-gradient(90deg, rgba(209,36,36,1) 1%, rgba(37,24,25,1) 14%, rgba(46,193,173,1) 31%, rgba(27,69,163,1) 46%, rgba(163,103,153,1) 61%, rgba(22,5,5,1) 80%, rgba(249,13,27,1) 93%);
+    }
+    #imagen{
+        width: 150px;
+        height: 150px;
+        border-radius: 100px;
+    }
+    #imagen:hover{
+        transform: scale(1.2);
+        transform: rotate(1080deg);
+        transition: 1s all ease;
+    }
+    h1{
+        color:rgb(0, 0, 0);
+        font-size: 50px;
+        text-shadow: 5px 5px 5px whitesmoke;
+        margin: 20px;
+    
+    }
+    h2{
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        text-shadow: 6px 6px 6px rgb(0, 0, 0);
+        margin: 10px;
+    
+    }
+    a{
+        width: 200px;
+        height: 20px;
+        padding: 20px;
+        font-size: 20px;
+        margin: 10px auto;
+        text-decoration: none;
+        display: block;
+        background: rgba(70, 120, 153, 0.956);
+        color: rgb(0, 0, 0);
+        border: 3px solid rgb(0, 0, 0);
+        box-shadow: 1px 1px 10px rgb(9, 84, 170);
+    
+    }
+    a:hover{
+        background: rgb(2, 2, 11);
+        color: blanchedalmond;
+        transform: scale(1.2);
+        transform: 2s all ease;
+    }
+    
+    a:active{
+        transform: scale(1.0);
+        background: rgb(0, 4, 234);
+        color: rgb(252, 254, 255);
+        transition: 1s all ease;
+    }
